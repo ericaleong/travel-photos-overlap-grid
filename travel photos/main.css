@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+
+  margin: auto;
+
+  grid-template-columns: repeat(6, 15vw);
+  grid-template-rows: repeat(12, 40vh);
+  height: 90vh;
+}
+
+
+.one {
+  grid-column: 1 / span 3;
+  background: #588B8B;
+}
+
+.two {
+  background: #F28F3B;
+
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 2;
+
+  position: relative;
+  left: -10vw;
+  top: 10vh;
+}
+
+.three {
+  background: url('assets/IMG_3547.jpeg');
+  background-size: cover;
+
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 2;
+
+  position: relative;
+  bottom: 12vh;
+}
+
+.four {
+  background: #FFD5C2;
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+
+  padding-top: 1.25em;
+  font-size: 4rem;
+  letter-spacing: .2em;
+  text-align: center;
+
+  grid-column: 1 / span 2;
+  grid-row: 2;
+
+  position: relative;
+  top: 10vh;
+  left: 5vw;
+}
+
+.five {
+  background: #C8553D;
+
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 2;
+
+  position: relative;
+  left: 10vw;
+  top: 10vh;
+}
+
+.six {
+  background: #B8B8D1;
+
+  grid-column: 3 / span 3;
+
+  position: relative;
+  right: -15vw;
+  bottom: 5vh;
+}
+
+.seven {
+  background: url('assets/DSCF5104.jpeg');  
+  background-size: cover;
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+
+  grid-column: 3 / span 2;
+  grid-row: 5 / span 2;
+
+  position: relative;
+  bottom: 12vh;
+}
+
+.eight {
+  background: #588B8B;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+
+  padding-top: 1.25em;
+  font-size: 4rem;
+  letter-spacing: .2em;
+  text-align: center;
+
+  grid-column: 4 / span 2;
+  grid-row: 5;
+
+  position: relative;
+  top: 10vh;
+  right: -10vw;
+}
+
+.nine {
+  background: #F28F3B;
+
+  grid-column: 1 / span 3;
+  grid-row: 7;
+}
+
+.ten {
+  background: #FFD5C2;
+
+  grid-column: 5 / span 2;
+  grid-row: 7 / span 2;
+
+  position: relative;
+  left: -10vw;
+  top: 10vh;
+}
+
+.eleven {
+  background: url('assets/DSCF7302.jpeg');
+  background-size: cover;
+
+  grid-column: 3 / span 2;
+  grid-row: 8 / span 2;
+
+  position: relative;
+  bottom: 12vh;
+}
+
+.twelve {
+  background: #B8B8D1;
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  
+
+  padding-top: 1.25em;
+  font-size: 4rem;
+  letter-spacing: .2em;
+  text-align: center;
+
+  grid-column: 1 / span 2;
+  grid-row: 8;
+
+  position: relative;
+  top: 10vh;
+  left: 5vw;
+}
